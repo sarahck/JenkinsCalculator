@@ -43,7 +43,7 @@ class Calculator {
         if (n < 1) {
             return 0;
         }
-        if (n < 3 ) {
+        if (n < 3) {
             return 1;
         }
         return fibonacciNumberFinder(n-1) + fibonacciNumberFinder(n-2);
